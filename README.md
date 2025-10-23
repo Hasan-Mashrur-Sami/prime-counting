@@ -4,9 +4,7 @@ In this project, I explore Number Theory and AI. The goal is to train a neural n
 ### Problem
 The prime-counting function, $\pi(x)$, counts the number of prime numbers less than or equal to some real number $x$. 
 There is no exact formula for $\pi(x)$. However, the Prime Number Theorem provides a famous approximation:
-$
-\pi(x) \approx \frac{x}{\ln(x)}
-$
+$\pi(x) \approx \frac{x}{\ln(x)}$
 This project attempts to answer the question: Can we train a model to learn the true $\pi(x)$ function more accurately than this theorem?
 
 ### Method
